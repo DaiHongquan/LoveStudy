@@ -173,6 +173,10 @@ git branch 分支名
 git branch -d 分支名
 `删除分支
 `
+git push origin -d 分支名
+`删除远程分支
+
+`
 git checkout 分支名
 `切换分支
 `
