@@ -6,6 +6,9 @@ print_background: true
 &copy; 代宏全 2024.3.18-2099.1.1
 
 ---
+『空谈无益，秀代码』
+
+---
 Markdown 是一种轻量级标记语言，是一种书写的格式，能将文本换成有效的XHTML(或者HTML)文档、PDF、WORD等，语法简洁明了，易于掌握，所以用它来写作是件既效率又舒服的事情。Markdown 的理念是，能让文档更容易读、写和随意改。prince不支持流程图(可以使用mermaid)，首页带水印;chrome pdf 代码框没有样式，不支持强调标记;markdown pdf 不支持流程图、脚注、\<kbd>。最好是open in browser,然后点击打印，另存为pdf，页眉页脚样式没修改前，最好不显示页眉页脚。
 
 ---

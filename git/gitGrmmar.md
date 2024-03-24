@@ -2,15 +2,18 @@
 print_background: true
 ---
 
-
 # git基础语法
 &copy; 代宏全 2024.3.18-2099.1.1
+
+---
+
+『勤学似春起之苗，不见其增，而日有所长』
 
 ---
 git是一个开源的分布式版本控制系统，用于敏捷高效的处理任何或大或小的项目。
 [git官网](https://git-scm.com/)
 
----
+
 
 <h1 id="menu">目录</h1>
 
@@ -132,7 +135,9 @@ git merge --no-ff origin/dev 将origin/dev分支合并到本地仓库的dev分�
 `git push origin v1.0 `推送某个标签到远程
 `git push origin --tags`一次性推送所有标签到远程
 `git tag -d v1.0  `删除标签
-`git push origin :refs/tags/v1.0 To https://github.com/DaiHongquan/LoveStudy.git`删除远程标签
+`git push origin :refs/tags/v1.2 To https://github.com/DaiHongquan/LoveStudy.git`删除远程标签
+`git ls-remote --tags origin`查看远程仓库标签
+`git push --delete origin <标签名>`删除远程仓库标签
 
 <h2 id="p6"> 柒.git配置</h2>
 
